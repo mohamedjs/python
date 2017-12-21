@@ -1,0 +1,8 @@
+pip install -e django/
+sudo pip install django
+python get-pip.py
+django-admin startproject mysite //create wbsite
+python manage.py startapp polls //start app it,s reall website i want
+python manage.py runserver 0:8000 //run server with port
+py manage.py migrate //migration
+py manage.py makemigrations music //add my website migration
